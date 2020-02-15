@@ -1,1 +1,2 @@
-alert('Hello L');
+
+require('./bootstrap');

@@ -12,12 +12,14 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    .copy('resources/img/**/*', 'public/img')
     .js('resources/js/bootstrap.js', 'public/js')
     .js('resources/js/myscripts.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app/app.scss', 'public/css')
+    .sass('resources/sass/web/web.scss', 'public/css');
 
 mix.browserSync({
-    proxy: 'auth.tst',
+    proxy: 'laravelsix.tst',
     // files: ['**/*.js', '**/*.vue', '**/*.blade.php', '**/*.css', '**/*.scss'],
     notify: false
 });

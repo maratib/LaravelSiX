@@ -1,6 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/css/web.css": "/css/web.css",
     "/js/bootstrap.js": "/js/bootstrap.js",
-    "/about.js": "/about.js"
+    "/js/myscripts.js": "/js/myscripts.js",
+    "/about.js": "/about.js",
+    "/img/logo.png": "/img/logo.png"
 }
