@@ -10913,3 +10913,7 @@ body {
   color: #42b983;
 }
 
+.alert {
+  opacity: 1 !important;
+}
+

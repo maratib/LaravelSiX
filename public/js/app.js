@@ -72253,7 +72253,7 @@ var staticRenderFns = [
     return _c(
       "div",
       {
-        staticClass: "alert alert-success alert-dismissible fade show",
+        staticClass: "alert alert-danger alert-dismissible fade show",
         attrs: { role: "alert" }
       },
       [
