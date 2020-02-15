@@ -1,6 +1,6 @@
 # Laravel 6 App setup
 
-## with auth, mix and ide helper
+## with auth, Mix, Vue, VueRouter, Vuex, sass, bootsrap, bootstrapVue, PhpCS and ide helper
 
 ```bash
 composer install
