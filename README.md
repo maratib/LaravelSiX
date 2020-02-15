@@ -3,19 +3,11 @@
 ## with auth, mix and ide helper
 
 ```bash
-laravel new TheApp --auth
-cd TheApp
-composer require --dev barryvdh/laravel-ide-helper
-# after setting database in .env
-art migrate
-
-# php artisan ide-helper:generate - phpDoc generation for Laravel Facades
-# php artisan ide-helper:models - phpDocs for models
-# php artisan ide-helper:meta - PhpStorm Meta file
-
-# Copy phpcs.xml to root folder
-# DONE
-
+composer install
+yarn install or npm install 
+php artisan key:generate
+php artisan migrate
+# Done
 ```
 
 
